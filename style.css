@@ -1,0 +1,67 @@
+body {
+    position: relative;
+    width: 1920px;
+    height: 4171px;
+    border: 1px solid red;
+}
+
+header {
+    position: absolute;
+    width: 1296px;
+    height: 110px;
+    left: 312px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+header .logo, header .menu, header .search, header .RU-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu {
+    width: 613px;
+    height: 22px;
+    margin-right: 115px;
+}
+
+.menu p {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333333;
+}
+
+header .logo{
+    width: 108px;
+    height: 30px;
+    margin-right: 113px;
+}
+
+header .search {
+    width: 194px;
+    height: 24px;
+    margin-right: 113px;
+}
+
+.search input {
+    border: none;
+    border-bottom: 1px solid #333333;
+    opacity: 0.2;
+}
+
+header .RU-block {
+    width: 40px;
+    height: 22px;
+}
+
+.RU-block p {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333333;
+}
