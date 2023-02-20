@@ -104,7 +104,9 @@ header .RU-block {
     top: 180px;
     width: 526px;
     height: 336px;
-    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .text-container h1 {
@@ -125,4 +127,71 @@ header .RU-block {
     width: 159px;
     height: 30px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-o-kompanii p {
+    width: 130px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.blue-card {
+    width: 306px;
+    height: 250px;
+    background: #5DB7DE;
+    border-radius: 20px;
+}
+
+.blue-card p {
+    width: 236px;
+    height: 18px;
+    margin: 30px 35px 118px 35px;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.blue-card h6 {
+    width: 236px;
+    height: 54px;
+    margin: 0 35px 30px 35px;
+    font-size: 19px;
+    line-height: 140%;
+}
+
+.row2-update {   /* Не работает этот селектор? Почему он не работает?
+    Как перенести текст на вторую строчку?
+    Может сделать блок в блоке и через padding?*/
+    width: 186px;
+    margin: 0 85px 30px 35px;
+}
+
+.card1 {
+    position: absolute;
+    left: 972px;
+    top: 113px;
+}
+
+.card2 {
+    position: absolute;
+    left: 1302px;
+    top: 113px;
+}
+
+.card3 {
+    position: absolute;
+    left: 972px;
+    top: 387px;
+}
+
+.card4 {
+    position: absolute;
+    left: 1302px;
+    top: 387px;
 }
