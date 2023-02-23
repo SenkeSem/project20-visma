@@ -165,12 +165,17 @@ header .RU-block {
     line-height: 140%;
 }
 
-.row2-update {   /* Не работает этот селектор? Почему он не работает?
-    Как перенести текст на вторую строчку?
-    Может сделать блок в блоке и через padding?*/
-    width: 186px;
-    margin: 0 85px 30px 35px;
-}
+
+
+/* Не работает этот селектор? Почему он не работает?
+        Как перенести текст на вторую строчку?
+        Может сделать блок в блоке и через padding?*/
+/*.row2-update {
+        width: 186px;
+        margin: 0 85px 30px 35px;
+    } */
+
+
 
 .card1 {
     position: absolute;
@@ -194,4 +199,102 @@ header .RU-block {
     position: absolute;
     left: 1302px;
     top: 387px;
+}
+
+.card4:hover {
+    background-color: orangered;
+    cursor: pointer;
+    border: 3px solid #333333;
+}
+
+/* Начало редактирования services*/
+
+.services {
+    position: absolute;
+    width: 1296px;
+    height: 717px;
+    left: 312px;
+    top: 1010px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-for-servise-text {
+    width: 306px;
+    height: 333px;
+}
+
+.service-heading-blok {
+    width: 306px;
+    height: 116px;
+}
+
+.service-heading-blok h3 {
+    font-size: 40px;
+    line-height: 140%;
+    color: #333333;
+}
+
+.service-text-blok {
+    width: 306px;
+    height: 217px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-text-blok .text-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-element p {
+    font-size: 16px;
+    line-height: 140%;
+    color: #3D348B;
+    /*text-decoration: underline;
+    text-decoration-style: dashed;*/
+}
+
+.second-element img {
+    margin-left: 31px;
+}
+
+.third-element img {
+    margin-left: 110px;
+}
+
+.box-for-darkblue-cards-container {
+    width: 856px;
+    height: 717px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.dark-blue-card {
+    width: 416px;
+    height: 223px;
+    background: #3D348B;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.dark-blue-card h6 {
+    width: auto;
+    height: auto;
+}
+
+
+/* Начало редактирования company*/
+
+.company {
+    position: absolute;
+    width: 1920px;
+    height: 876px;
+    left: 0px;
+    top: 1877px;
+    border: 2px solid blue;
 }
