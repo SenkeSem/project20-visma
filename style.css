@@ -296,5 +296,115 @@ header .RU-block {
     height: 876px;
     left: 0px;
     top: 1877px;
-    border: 2px solid blue;
+    background: rgba(60, 51, 138, 0.05);
+}
+
+.company-heading {
+    position: absolute;
+    width: auto;
+    height: 56px;
+    left: 312px;
+    top: 100px;
+    font-size: 40px;
+    line-height: 140%;
+    color: #333333;
+    display: flex;
+}
+
+.company img[alt="korabli"] {
+    position: absolute;
+    top: 216px;
+    left: 1082px;
+}
+
+.company img[alt="Vector"] {
+    position: absolute;
+    top: 357px;
+    left: 1311px;
+}
+
+.company-blue-card {
+    width: 526px;
+    height: 170px;
+    position: absolute;
+    top: 596px;
+    left: 1082px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.company-blue-card p,
+.company-blue-card h6 {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    color: #FFFFFF;
+}
+
+.company-blue-card p {
+    margin: 30px 35px 0 35px;
+}
+
+.company-blue-card h6 {
+    margin: 0 35px 30px 35px;
+}
+
+.company-content-block {
+    width: 636px;
+    height: 550px;
+    position: absolute;
+    top: 216px;
+    left: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company-content-block p,
+.company-content-block li {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000;
+}
+
+.company-content-block ul {
+    padding-left: 17px;
+    margin: 0;
+}
+
+.company-content-block li {
+    padding-left: 16px;
+    margin-top: 15px;
+}
+
+/* Начало редактирования блока news*/
+
+.news {
+    position: absolute;
+    width: 1296px;
+    height: 514px;
+    left: 312px;
+    top: 2903px;
+    border: 1px solid red;
+}
+
+.news-heading {
+    background-color: bisque;
+    width: 1296px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-button .button-o-kompanii {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3D348B;
 }
