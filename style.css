@@ -390,11 +390,12 @@ header .RU-block {
     height: 514px;
     left: 312px;
     top: 2903px;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .news-heading {
-    background-color: bisque;
     width: 1296px;
     height: 56px;
     display: flex;
@@ -402,9 +403,63 @@ header .RU-block {
     align-items: center;
 }
 
+.news-heading h3 {
+    font-size: 40px;
+    line-height: 140%;
+    color: #333333;
+}
+
 .news-button .button-o-kompanii {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #3D348B;
+}
+
+.button-o-kompanii p {
+    margin-right: 15px;
+}
+
+img[alt="strelka-button-company"] {
+    position: absolute;
+    right: 12px;
+}
+
+.news-blocks-container {
+    width: auto;
+    height: 398px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-blocks-container .news-block {
+    width: 306px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.news-block-img {
+    margin-bottom: 10px;
+}
+
+.news-block-date {
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.news-block-heading {
+    font-size: 19px;
+    line-height: 140%;
+    color: #333333;
+}
+
+.news-block-text {
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
 }
