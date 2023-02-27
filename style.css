@@ -21,7 +21,6 @@ body {
     position: relative;
     width: 1920px;
     height: 4171px;
-    border: 1px solid red;
 }
 
 header {
@@ -462,4 +461,72 @@ img[alt="strelka-button-company"] {
     font-size: 14px;
     line-height: 140%;
     color: #333333;
+}
+
+/* Начало редактирования footer*/
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 1920px;
+    height: 604px;
+}
+
+.hi-footer {
+    width: auto;
+    height: 120px;
+    background-color: rgba(61, 52, 139, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.low-footer {
+    width: auto;
+    height: 484px;
+    background-color: rgba(61, 52, 139);
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.hi-footer-container {
+    width: 1296px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hi-footer-container p {
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.hi-footer-container .address {
+    width: 304px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hi-footer-container .phone-and-email {
+    width: 379px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 44px;
+}
+
+.low-footer-container {
+    width: 1296px;
+    height: 276px;
+    border: 1px solid snow;
+}
+
+.low-footer-container .info-block {
+    
 }
