@@ -66,9 +66,14 @@ header .search {
 }
 
 .search input {
+    width: 150px;
     border: none;
     border-bottom: 1px solid #333333;
     opacity: 0.2;
+}
+
+.search img {
+    margin-right: 21px;
 }
 
 header .RU-block {
@@ -123,7 +128,7 @@ header .RU-block {
 }
 
 .text-container .button-o-kompanii {
-    width: 159px;
+    width: 170px;
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -159,22 +164,11 @@ header .RU-block {
 .blue-card h6 {
     width: 236px;
     height: 54px;
-    margin: 0 35px 30px 35px;
+    margin-bottom: 35px;
+    margin-left: 35px;
     font-size: 19px;
     line-height: 140%;
 }
-
-
-
-/* Не работает этот селектор? Почему он не работает?
-        Как перенести текст на вторую строчку?
-        Может сделать блок в блоке и через padding?*/
-/*.row2-update {
-        width: 186px;
-        margin: 0 85px 30px 35px;
-    } */
-
-
 
 .card1 {
     position: absolute;
@@ -186,6 +180,10 @@ header .RU-block {
     position: absolute;
     left: 1302px;
     top: 113px;
+}
+
+.card2 h6, .card3 h6, .card4 h6 {
+    width: 100px;
 }
 
 .card3 {
@@ -487,7 +485,6 @@ footer {
     background-color: rgba(61, 52, 139);
     display: flex;
     justify-content: center;
-    padding-top: 80px;
 }
 
 .hi-footer-container {
@@ -524,9 +521,45 @@ footer {
 .low-footer-container {
     width: 1296px;
     height: 276px;
-    border: 1px solid snow;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
 }
 
 .low-footer-container .info-block {
-    
+    color: #FFFFFF;
+    width: 306px;
+    height: auto;
+}
+
+.info-block h6 {
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.info-block ul,
+.info-block li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.info-block li {
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 15px;
+}
+
+.copyright-visma {
+    position: absolute;
+    left: 845px;
+    bottom: 30px;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
 }
